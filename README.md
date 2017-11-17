@@ -12,6 +12,11 @@ like ios UISegmentControl
     }}
 />
 ````
+### 实时刷新index(change the current index any time)
+````
+<FOFSegmentControl
+    selectedIndex={this.state.index}
+````
 ## Props
  Name | Description | Default | Type
 :-:|:-:|:-:|:-:
