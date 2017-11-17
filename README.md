@@ -16,6 +16,7 @@ like ios UISegmentControl
 ````
 <FOFSegmentControl
     selectedIndex={this.state.index}
+/>
 ````
 ## Props
  Name | Description | Default | Type
