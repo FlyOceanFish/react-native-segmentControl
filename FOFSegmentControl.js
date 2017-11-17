@@ -48,6 +48,12 @@ export default class FOFSegmentControl extends Component{
             </View>
         );
     }
+    componentWillReceiveProps(nextProps) {
+      if(this.props.selectedIndex!=nextProps.selectedIndex){
+          this._startAnimation(nextProps.selectedIndex);
+          this.props.onPress(nextProps.selectedIndex);
+      }
+  }
     render(){
         var items = [];
         var titles = this.props.titles;
